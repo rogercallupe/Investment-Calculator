@@ -12,8 +12,8 @@ import type { InvestmentInput } from '../investment-input.model';
 export class UserInputComponent {
   @Output () calculate = new EventEmitter<InvestmentInput>();
 
-  enteredInitialInvestment = '0';
-  enteredAnnualInvestment = '0';
+  enteredInitialInvestment = '1000';
+  enteredAnnualInvestment = '100';
   enteredExpectedReturn = '5';
   enteredDuration = '10';
 
