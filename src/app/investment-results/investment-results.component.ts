@@ -20,12 +20,12 @@ export class InvestmentResultsComponent {
  // This component displays the results of the investment calculation.
 
  @Input() results?: {
-      year: number,
-      interest: number,
-      valueEndOfYear: number,
-      annualInvestment: number,
-      totalInterest: number,
-      totalAmountInvested: number,
+      year: number;
+      interest: number;
+      valueEndOfYear: number;
+      annualInvestment: number;
+      totalInterest: number;
+      totalAmountInvested: number;
     }[];// This is an array of objects representing the investment results for each year.
 
 }
